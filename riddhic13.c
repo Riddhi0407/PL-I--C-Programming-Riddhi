@@ -1,4 +1,4 @@
-/*Program(13)--Write a program using the switch-case statement to create a menu-driven calculator that repeatedly performs arithmetic operations unit the user exits the program*/
+/*Program(13)--Write a program using the switch-case statement to create a menu-driven calculator that repeatedly performs arithmetic operations until the user exits the program*/
 #include<stdio.h>
 int main()
 {
