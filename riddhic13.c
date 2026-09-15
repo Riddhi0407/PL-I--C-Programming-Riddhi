@@ -22,21 +22,21 @@ case 1:
 printf("Enter two numbers:");
 scanf("%f%f",&num1,&num2);
 result=num1+num2;
-printf("Result=%2f\n",result);
+printf("Result=.%2f\n",result);
 break;
 
 case 2:
 printf("Enter two numbers:");
 scanf("%f%f",&num1,&num2);
 result=num1-num2;
-printf("Result=%2f\n",result);
+printf("Result=.%2f\n",result);
 break;
 
 case 3:
 printf("Enter two numbers:");
 scanf("%f%f",&num1,&num2);
 result=num1*num2;
-printf("Result=%2f\n",result);
+printf("Result=.%2f\n",result);
 break;
 
 case 4:
@@ -44,7 +44,7 @@ printf("Enter two numbers:");
 scanf("%f%f",&num1,&num2);
 
 if(num2 !=0)
-printf("Result=%2f\n",num1/num2);
+printf("Result=.%2f\n",num1/num2);
 else
 printf("Error!Division by zero is not allowed\n");
 break;
